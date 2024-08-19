@@ -1,7 +1,7 @@
 ### How to setup
 
 #### Trough automation scripts
-- Git clone the repo or download the source
+- Git clone the repo or download the [source](https://github.com/AAATBSGSHU/ezpy/releases/latest)
 - Copy the location of ezstp-zsh.sh or ezstp-bash.sh (depending on your shell)
 - Run ```chmod +x /location/to/your/ezstp-$shell.sh```
 - Run the shell script again
