@@ -1,5 +1,3 @@
-*Terminal utility for creating, entering and "initializing" (downloading requirements) python environements*
-
 ### How to setup
 
 #### Trough automation scripts
@@ -8,7 +6,7 @@
 - Run ```chmod +x /location/to/your/ezstp-$shell.sh```
 - Run the shell script again
 - And you're done (running 'ezpy' will now work in all new and reloaded terminal windows)
--
+
 - #### Manually
 - Grab the script [here](https://github.com/AAATBSGSHU/ezpy/blob/main/ezpy.sh)
 - Copy it
