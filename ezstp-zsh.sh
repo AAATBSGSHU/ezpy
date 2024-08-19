@@ -14,19 +14,15 @@ ezpy() {
         env_name="venv"
     fi
 
-    # Check if the virtual environment already exists
     if [ -d "$env_name" ]; then
         echo "Virtual environment '$env_name' already exists."
     else
-        # Create the virtual environment if it doesn't exist
         python3 -m venv "$env_name"
         echo "Virtual environment '$env_name' created."
     fi
 
-    # Activate the virtual environment
     source "$env_name/bin/activate"
 
-    # Install dependencies if requirements.txt exists
     if [ -f "requirements.txt" ]; then
         pip install -r requirements.txt
     else
